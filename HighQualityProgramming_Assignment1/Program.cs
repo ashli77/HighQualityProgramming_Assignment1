@@ -18,11 +18,3 @@ class pet{
     }   
 
 }
-
-
-       
-        Console.Write("Enter your name: ");
-        string userInput = Console.ReadLine();
-        Console.WriteLine("Hello, " + userInput + "!");
-        Console.ReadLine();
- 
