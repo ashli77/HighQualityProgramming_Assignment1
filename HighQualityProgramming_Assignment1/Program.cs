@@ -1,6 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System;
-class pet{
+class pet {
     static void Main()
     {
         Console.WriteLine("Choose a pet you like from below: \n1. Dog\n2. Cat\n3. Elephant");
@@ -9,12 +9,26 @@ class pet{
             int userinput = Convert.ToInt32(Console.ReadLine());
             if (userinput == 1)
                 Console.WriteLine("You have selected Dog as your pet");
+            
             if (userinput == 2)
                 Console.WriteLine("You have seleted Cat as your pet");
+            
             if (userinput == 3)
                 Console.WriteLine("You have selected Elephant as your pet");
+                       
 
         }
-    }   
+        {
+            Console.Write("Enter desired name for your buddy :");
+            string userInput1 = Console.ReadLine();
+            Console.WriteLine("Hello" + userInput1);
+            Console.ReadLine();
+
+        }
+
+
+    }
+    
+    
 
 }
